@@ -1,0 +1,1343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<style type="text/css">
+body {
+	width: 100% !important;
+	min-width: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	margin: 0 !important;
+	padding: 0;
+}
+table{margin:0px;}
+
+div, p, a, li, td { -webkit-text-size-adjust:none; }
+
+body { margin:0 !important; }
+div[style*="margin: 16px 0"] { margin:0 !important; }
+
+td.expander{
+	display:none;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass {
+	line-height: 100%;
+}
+#backgroundTable {
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+	line-height: 100% !important;
+}
+img {
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+	/*width: 100%;*/
+	max-width: 100%;
+	float: none;
+	clear: both;
+	display: block;
+}
+body {
+	color: #222222;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	line-height: 1.3;
+}
+body {
+	font-size: 14px;
+	line-height: 19px;
+}
+a:hover {
+	color: #2795b6;
+}
+a:active {
+	color: #2795b6;
+}
+a:visited {
+	color: #2ba6cb;
+}
+h1 a:active {
+	color: #2ba6cb !important;
+}
+h2 a:active {
+	color: #2ba6cb !important;
+}
+h3 a:active {
+	color: #2ba6cb !important;
+}
+h4 a:active {
+	color: #2ba6cb !important;
+}
+h5 a:active {
+	color: #2ba6cb !important;
+}
+h6 a:active {
+	color: #2ba6cb !important;
+}
+h1 a:visited {
+	color: #2ba6cb !important;
+}
+h2 a:visited {
+	color: #2ba6cb !important;
+}
+h3 a:visited {
+	color: #2ba6cb !important;
+}
+h4 a:visited {
+	color: #2ba6cb !important;
+}
+h5 a:visited {
+	color: #2ba6cb !important;
+}
+h6 a:visited {
+	color: #2ba6cb !important;
+}
+table.button:hover td {
+	background: #2795b6 !important;
+}
+table.button:visited td {
+	background: #2795b6 !important;
+}
+table.button:active td {
+	background: #2795b6 !important;
+}
+table.button:hover td a {
+	color: #fff !important;
+}
+table.button:visited td a {
+	color: #fff !important;
+}
+table.button:active td a {
+	color: #fff !important;
+}
+table.button:hover td {
+	background: #2795b6 !important;
+}
+table.tiny-button:hover td {
+	background: #2795b6 !important;
+}
+table.small-button:hover td {
+	background: #2795b6 !important;
+}
+
+table.medium-button:hover td {
+	background: #2795b6 !important;
+}
+table.large-button:hover td {
+	background: #2795b6 !important;
+}
+table.button:hover td a {
+	color: #ffffff !important;
+}
+table.button:active td a {
+	color: #ffffff !important;
+}
+table.button td a:visited {
+	color: #ffffff !important;
+}
+table.tiny-button:hover td a {
+	color: #ffffff !important;
+}
+table.tiny-button:active td a {
+	color: #ffffff !important;
+}
+table.tiny-button td a:visited {
+	color: #ffffff !important;
+}
+table.small-button:hover td a {
+	color: #ffffff !important;
+}
+table.small-button:active td a {
+	color: #ffffff !important;
+}
+table.small-button td a:visited {
+	color: #ffffff !important;
+}
+table.medium-button:hover td a {
+	color: #ffffff !important;
+}
+table.medium-button:active td a {
+	color: #ffffff !important;
+}
+table.medium-button td a:visited {
+	color: #ffffff !important;
+}
+table.large-button:hover td a {
+	color: #ffffff !important;
+}
+table.large-button:active td a {
+	color: #ffffff !important;
+}
+table.large-button td a:visited {
+	color: #ffffff !important;
+}
+table.secondary:hover td {
+	background: #d0d0d0 !important;
+	color: #555;
+}
+table.secondary:hover td a {
+	color: #555 !important;
+}
+table.secondary td a:visited {
+	color: #555 !important;
+}
+table.secondary:active td a {
+	color: #555 !important;
+}
+table.success:hover td {
+	background: #457a1a !important;
+}
+table.alert:hover td {
+	background: #970b0e !important;
+}
+body.outlook p {
+	display: inline !important;
+}
+a:hover {
+	color: #2a6496;
+}
+a:focus {
+	color: #2a6496;
+}
+table.button:hover td {
+	background: #3276b1 !important;
+}
+table.button:visited td {
+	background: #3276b1 !important;
+}
+table.button:active td {
+	background: #3276b1 !important;
+}
+table.secondary:hover td {
+	background: #d0d0d0 !important;
+	color: #555555;
+}
+table.secondary:hover td a {
+	color: #555555 !important;
+}
+table.secondary td a:visited {
+	color: #555555 !important;
+}
+table.secondary:active td a {
+	color: #555555 !important;
+}
+table.success:hover td {
+	background: #457a1a !important;
+}
+table.alert:hover td {
+	background: #970b0e !important;
+}
+.lead.gray a:hover {
+	color: #C51230;
+	text-decoration: underline;
+}
+.lead.gray a:active {
+	color: #C51230;
+	text-decoration: underline;
+}
+.lead.gray a:visited {
+	color: #C51230;
+	text-decoration: underline;
+}
+
+.menu:hover{
+	background-color:#ffffff !important;
+	color:#0D5CAB !important;
+	border-top: 3px solid #C51230 !important;
+	border-left: 2px solid #C51230 !important;
+	border-right: 2px solid #C51230 !important;
+}
+
+.bottmenu:hover{
+	background-color:#ffffff !important;
+	color:#0D5CAB !important;
+	border-top: 2px solid #C51230 !important;
+	border-left: 2px solid #C51230 !important;
+	border-right: 2px solid #C51230 !important;
+}
+
+.bottmenu:hover a.menutext,
+.menu:hover a.menutext{
+	color:#0D5CAB !important;
+
+}
+
+
+.menu a.menutext:hover {
+	color: #0D5CAB;
+}
+.menu a.menutext:active {
+	color: #ffffff;
+}
+.menu a.menutext:visited {
+	color: #ffffff;
+}
+
+
+table.redbutton:hover td{
+	background-color:#d31938 !important;
+}
+
+td.footshop:hover div{
+	background: #3276b1 !important;
+}
+
+@-moz-document url-prefix() {
+	table.brandwrap td.wrapper{padding: 10px 100px 0px !important;}
+}
+
+@media only screen and (max-width: 600px) {
+	div.container{width:530px !important;}
+	div{min-width:0px !important;}
+	table.container{width:530px !important;}
+	table.spaceheader{width:100% !important;}
+	table.body{
+		/*margin-left: 2.5rem !important;*/
+	}
+	h6{font-size:17 !important; text-align:center !important;}
+	table.spacer{display:none !important;}
+	table.midbutton{width:100% !important;}
+	table[class="body"] img {
+		/*width: auto !important;*/
+		height: auto !important;
+	}
+	table[class="body"] center {
+		min-width: 0 !important;
+	}
+	table.container {
+		width: 530px !important;
+	}
+	table[class="body"] .row {
+		width: 100% !important;
+		display: block !important;
+	}
+	table[class="body"] .wrapper {
+		display: block !important;
+		padding-right: 0 !important;
+	}
+	table[class="body"] .columns {
+		table-layout: fixed !important;
+		float: none !important;
+		width: 100% !important;
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		display: block !important;
+	}
+	table[class="body"] .columnhead {
+		table-layout: fixed !important;
+		float: none !important;
+		width: 100% !important;
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		display: block !important;
+	}
+	table[class="body"] .column {
+		table-layout: fixed !important;
+		float: none !important;
+		width: 100% !important;
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+		display: block !important;
+	}
+	table[class="body"] .wrapper.first .columns {
+		display: table !important;
+	}
+	table[class="body"] .wrapper.first .column {
+		display: table !important;
+	}
+	table[class="body"] table.columns td {
+		width: 100% !important;
+	}
+	table[class="body"] table.column td {
+		width: 100% !important;
+	}
+	table[class="body"] .columns td.one {
+		width: 8.333333% !important;
+	}
+	table[class="body"] .column td.one {
+		width: 8.333333% !important;
+	}
+	table[class="body"] .columns td.two {
+		width: 16.666666% !important;
+	}
+	table[class="body"] .column td.two {
+		width: 16.666666% !important;
+	}
+	table[class="body"] .columns td.three {
+		width: 25% !important;
+	}
+	table[class="body"] .column td.three {
+		width: 25% !important;
+	}
+	table[class="body"] .columns td.four {
+		width: 33.333333% !important;
+	}
+	table[class="body"] .column td.four {
+		width: 33.333333% !important;
+	}
+	table[class="body"] .columns td.five {
+		width: 41.666666% !important;
+	}
+	table[class="body"] .column td.five {
+		width: 41.666666% !important;
+	}
+	table[class="body"] .columns td.six {
+		width: 50% !important;
+	}
+	table[class="body"] .column td.six {
+		width: 50% !important;
+	}
+	table[class="body"] .columns td.seven {
+		width: 58.333333% !important;
+	}
+	table[class="body"] .column td.seven {
+		width: 58.333333% !important;
+	}
+	table[class="body"] .columns td.eight {
+		width: 66.666666% !important;
+	}
+	table[class="body"] .column td.eight {
+		width: 66.666666% !important;
+	}
+	table[class="body"] .columns td.nine {
+		width: 75% !important;
+	}
+	table[class="body"] .column td.nine {
+		width: 75% !important;
+	}
+	table[class="body"] .columns td.ten {
+		width: 83.333333% !important;
+	}
+	table[class="body"] .column td.ten {
+		width: 83.333333% !important;
+	}
+	table[class="body"] .columns td.eleven {
+		width: 91.666666% !important;
+	}
+	table[class="body"] .column td.eleven {
+		width: 91.666666% !important;
+	}
+	table[class="body"] .columns td.twelve {
+		width: 100% !important;
+	}
+	table[class="body"] .column td.twelve {
+		width: 100% !important;
+	}
+	table[class="body"] td.offset-by-one {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-two {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-three {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-four {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-five {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-six {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-seven {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-eight {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-nine {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-ten {
+		padding-left: 0 !important;
+	}
+	table[class="body"] td.offset-by-eleven {
+		padding-left: 0 !important;
+	}
+	table[class="body"] table.columns td.expander {
+		display: block !important;
+		width: 1px !important;
+		visibility:hidden !important;
+	}
+	table[class="body"] .right-text-pad {
+		padding-left: 10px !important;
+	}
+	table[class="body"] .text-pad-right {
+		padding-left: 10px !important;
+	}
+	table[class="body"] .left-text-pad {
+		padding-right: 10px !important;
+	}
+	table[class="body"] .text-pad-left {
+		padding-right: 10px !important;
+	}
+	table[class="body"] .hide-for-small {
+		display: none !important;
+	}
+	table[class="body"] .show-for-desktop {
+		display: none !important;
+	}
+	table[class="body"] .show-for-small {
+		display: inherit !important;
+	}
+	table[class="body"] .hide-for-desktop {
+		display: inherit !important;
+	}
+	table[class="body"] .right-text-pad {
+		padding-left: 10px !important;
+	}
+	table[class="body"] .left-text-pad {
+		padding-right: 10px !important;
+	}
+	table.header{width:100% !important;}
+	table.bigmenu{
+		display:none;
+		left: 84px;
+		position: relative;
+	}
+	table.smallmenu{
+		display: block !important;
+	}
+	table.smallmenu,
+	table.smallmenu td{
+		font-size:13px !important; 
+		font-weight: normal !important;
+		max-height:none !important;
+		line-height:1px !important;
+	}
+	table.smallmenu img{
+		height:34px !important;
+	}
+	table.footmenu{
+		display:block !important;
+	}
+	table.brands td.wrapper{padding-left: 42px !important;}
+	table.body td.wrapper td.sub-columns{
+		width:150px !important;
+	}
+	td.sub-columns img{
+		padding:0px 20px !important;
+	}
+	td.last{
+		padding: 0px 0px 0px 0px !important;
+	}
+	td.last p,
+	p.shiptext{
+		text-align:center !important;
+		font-size: 14px !important;
+	}
+	td.last h4{
+		text-align:center !important;
+		font-size: 26px !important;
+	}
+	table.catdog-button{
+		width: 100% !important; padding:5px !important;
+	}
+	table.rightbut{
+		clear:left !important;
+	}
+	table.buttonset{
+		padding:0px !important;
+	}
+	table.img1{
+		width:100% !important;
+	}
+	table.img2{
+		width:100% !important;
+		clear: left;
+	}
+	table.img1 img{
+		width:80% !important;
+		    padding-left: 10% !important;
+	}
+	table.img2 img{
+		width:80% !important;
+		padding-left: 10% !important;
+
+	}
+	td.gridbut{
+		padding: 0em 4em !important;
+	}
+	*.mobilehide{display:block !important; font-size: 12px !important; max-height: none !important; line-height: 12px !important; overflow:visible !important;}
+	*.mobilehide img{ max-height:none !important; width: auto !important;}
+	table.smallfootmenu{display:none !important;}
+	td.imgholder img{width:100% !important;}
+	table.shipper td.logo{clear:right !important;}
+	table.shipper td.shipdesc{clear:left !important;}
+	table.brandwrap td.wrapper{padding-left:85px !important; padding-right:0px !important;}
+	table.half-brand{width:100% !important; clear:both !important; float:none !important;}
+	table.pfdservices{width:100% !important; clear:left;}
+	table.imagebuttons ul{padding-left:167px !important;}
+	td.quadimg,
+	table.socialtop,
+	table.socialbott{width:530px !important;}
+	table.container table.servicecon{padding-left: 28px !important; width:496px !important;} 
+	td.socialcon{padding: 0px 0px 10px 0px !important;}
+	
+	table.footmenu{display:block !important; width:100% !important; padding-left: 0px !important;}
+	table.footmenu-in{display:block !important;}
+	td.footshop{display:block !important; padding-top:5px !important;}
+	td.footshop div{display:block !important; overflow:visible; padding: 20px 156px; width:197px !important; font-size:16px !important; Font-weight:bold !important; letter-spacing:1px !important; text-decoration:none !important; line-height:1.5px  !important; max-height:auto !important;}
+
+	
+	@-moz-document url-prefix() {
+		table.smallmenu{width:525px !important;}
+		p.lead{padding: 0px 0px 0px 116px !important;}
+		/*table.brands{padding-left: 116px !important;}
+		table.brandwrap td.center{padding-left: 85px !important;}*/
+		/*table.offertext{padding-left: 132px !important;}
+		table.shipper{text-align: -moz-center !important;}
+		table.container table.brands table.columns{width:525px !important;}
+		td.last h4 center{width:525px !important;}
+		table.brands{padding-left: 0px !important;}
+		table.brandwrap td.center{padding-left: 0px !important;}
+		table.footmenu table, table.footmenu td, table.footmenu {padding-left: 0px !important;}
+		table.legal{padding-left:168px !important;}*/
+	}
+	
+	
+}
+@media only screen and (max-width: 510px) {
+	table{border:0px !important;}
+	div.container{width: 450px !important;}
+	table.container{width: 450px !important;}
+	table.smallmenu{padding-left:30px !important;}
+	td.imgholder img{width:100% !important; height:auto !important;}
+	td.wrapper table td{padding-left: 0px !important; padding-right: 0px !important; }
+	td.sub-columns img {padding: 0px 0px !important;}
+	table.container table.servicecon{padding-left: 0px !important; width:450px !important;} 
+	table.imagebuttons ul{padding-left:133px !important;}
+	td.quadimg,
+	table.pfdservices,
+	table.socialtop,
+	table.socialbott{width:450px !important;}
+	table.pfdservices{padding-left:0px !important;}
+	table.pfdservices td{padding:0px 0px !important}
+	table.social{width:364px !important;}
+	td.socialcon {padding: 0px 0px 10px 0px !important;}
+	table.socialbott{padding-left:0px !important;}
+	table.brandwrap td.wrapper {padding-left: 46px !important;}
+	table.brands td.wrapper{padding-left: 10px !important;}
+	table.brands td.four img{width:60px !important;}
+	table.footmenu{left: 11px;}
+	table.footmenu,
+	table.footmenu table,
+    table.footmenu td,
+    table.footmenu div{position:static !important; width:450px !important; padding-left: 0px !important; padding-right: 0px !important;}
+	@-moz-document url-prefix() {
+		table.smallmenu{width: 443px !important; left: -4px !important;}
+		p.lead{padding: 0px 0px 0px 14px !important;}
+		table.smallmenu{font-size:11px !important}
+		table.offertext{padding-left: 78px !important;}
+		/*table.brandwrap td.center{padding-left: 66px !important;} */
+		td.sub-columns img {padding: 0px 0px !important;}
+		td.last h4 center{width:411px !important;}
+		table.container table.brands table.columns{width:371px !important;}
+		/*table.brands{padding-left: 63px !important;}*/
+		table.legal{padding-left:117px !important;}
+	}
+	
+}
+@media only screen and (max-width: 411px) {
+	div.container{width: 360px !important;}
+	table.container{width:360px !important; padding-left:0px !important;}
+	table.smallmenu{width: 360px !important; padding-left: 5px !important; left:-4px !important;}
+	td.wrapper{padding-left: 0px !important; padding-right: 0px !important;}
+	table.imagebuttons ul{padding-left:85px !important;}
+	table.brandwrap td.wrapper{padding-left:0px !important;}
+	table.brands td.wrapper{padding-left: 0px !important;}
+	table.socialtop{width:360px !important;  padding-left: 6px !important;}
+	td.quadimg,
+	table.pfdservices,
+	table.socialbott{width:360px !important; padding-left:0px !important;}
+	table.social{width:100% !important;}
+	table.pfdservices{padding-left:0px !important;}
+	td.soc{padding:0px 15px !important;}
+	table.container table.servicecon{width:360px !important; padding-left:0px !important;}
+	table.servicecon td{padding: 0px 0px !important;}
+	table.footmenu table,
+    table.footmenu td,
+    table.footmenu div{position:static !important; width:360px !important;}
+	td.footshop div{padding: 20px 0px !important;}
+	table.img1 img{width:100% !important; padding-left:0 !important;}
+	table.img2 img{width:100% !important; padding-left:0 !important;}
+	td.gridbut{
+		padding: 0em 0em !important;
+	}
+	
+	@-moz-document url-prefix() {
+		table.smallmenu{padding-left: 10px !important;}
+		table.container table.brands table.columns{width:360px !important;}
+		table.body table.container table.brandwrap{width:100% !important; padding-left: 11px !important;}
+		p.lead{padding: 0px 0px 0px 0px !important;}
+		td.sub-columns img {padding: 0px 21px !important;}
+		table.offertext{padding-left: 46px !important;}
+		/*table.smallmenu{width:360px !important; left:12px !important; padding-left:0px;}
+		table.container table.brands table.columns{width:360px !important;}
+		table.body table.container table.brandwrap{width:100% !important}
+		p.lead{padding: 0px 0px 0px 0px !important;}
+		td.sub-columns img {padding: 0px 21px !important;}
+		td.last h4{width:360px !important;}
+		table.offertext{padding-left: 35px !important;}*/
+		/*table.brandwrap td.center{padding-left: 22px !important;}
+		table.brands{padding-left: 20px !important;}
+		table.legal{padding-left:88px !important;}*/
+	}
+}
+
+@media only screen and (max-width: 359px) {
+	div.container{width: 320px !important;}
+	table.container{width:320px !important;}
+	/*table.row{padding-left:.5em !important;}*/
+	table.row{padding-left:0px !important;}
+	table.smallmenu{width:100% !important; left: 2px !important; padding-left:0px !important;}
+	table.smallmenu td:nth-child(odd){width:78px !important; font-size:11px !important;}
+	table.body table.container table.brandwrap{width:100% !important;padding-left: 0px !important;}
+	table.imagebuttons ul{padding-left62px !important;}
+	table.pfdservices{width:320px !important; padding-left: 17px !important; }
+	td.quadimg,
+	table.socialtop,
+	table.socialbott{width:320px !important; padding-left: 0px !important; }
+	table.pfdservices{padding-left: 0px !important;}
+	table.servicecon,
+	td.socialcon {padding-left: 0px !important;}
+	table.container table.servicecon{width:320px !important; padding-left:0px !important;}
+	table.footmenu table,
+	table.footmenu td,
+    table.footmenu div{position:static !important; width:320px !important;}
+    table.footmenu div{padding-left: 0px !important; padding-right: 0px !important;}
+	
+	@-moz-document url-prefix() {
+		table.offertext td.wrapper{padding-left: 27px !important;}
+		/*td.last h4{width:320px !important;}
+		table.container table.brands table.columns{width:320px !important;}
+		table.body td.wrapper td.sub-columns {width: 100px !important;}
+		table.container table.offertext{padding-left: 14px !important;}
+		table.container table.shipper{padding-left: 0px !important; width:320px !important;}
+		table.legal{padding-left:49px !important;}*/
+	}
+	
+}
+
+
+</style>
+<title>Welcome to PetFoodDirect!</title>
+</head>
+<body style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0; padding: 0; background-color:#ffffff;">
+<center>
+<div class="container" style="width:650px">
+	<table class="spaceheader" width="580" cellspacing="0" cellpadding="0" border="0" align="center">
+	  <tbody>
+		<tr>
+		  <td bgcolor="#ffffff" colspan="2" style="font-size:9px; font-family: Verdana,Arial,Helvetica,sans-serif; line-height:15px; padding:9px; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto;color:#000000;"><span style="color:#FF0000; font-weight:bold;">We want to THANK YOU with $10 OFF + FREE Shipping! <a href="http://www.petfooddirect.com?ph">SHOP NOW</a></span> | <a href="%%viewonline%%" alt="Web Version">View in Browser</a> | <span style="color:#666;"><a href="http://www.petfooddirect.com/email-preferences?email=%%to_email%%" alt="Manage your email preferences">Unsubscribe</a><br />
+		  To ensure delivery to your inbox, please add PetFoodDirect@email.petfooddirect.com to your address book. </span></td>
+		</tr>
+	  </tbody>
+	</table>
+	<table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+	  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+		<td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+		  <div align="center" style="width: 100%; min-width: 580px;">
+		  <!--top bg --->
+			<table class="row header" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 630px; position: relative; border-bottom-color: #cccccc; border-bottom-width: 1px; border-bottom-style: solid; border-top-color: #cccccc; border-top-width: 1px; border-top-style: solid; background: #E5EFF9; padding: 0px;">
+			  <tr style="vertical-align: top; text-align: left; padding: 0;" align="center">
+				<td class="center" align="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" valign="top">
+				 <div align="center" style="width: 100%; min-width: 580px;">
+					<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+					  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+						<td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+							<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0; padding: 0;">
+								<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+								  <td class="imgholder" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" width="400" valign="top"><a href="http://www.petfooddirect.com/?logo"><img src="http://www.pet360.com/bluehornetimages/PFD/Promotional/PFD_Logo-New-HiRes.png" width="350" alt="PetFoodDirect" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; height:auto; float: left; display: block;" align="left" /></a></td>
+								  <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; width: 300px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+								</tr>						
+							 </table>
+						 </td>
+					   </tr>
+					  </table>
+					  <table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+						<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+						  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+						  <table class="twelve columnhead" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+							<tr style="vertical-align: top; text-align: left; padding: 0;" align="right">
+							 <td>
+							 <table class="smallmenu" style="display:none; position:static; padding-left:71px; overflow:hidden; font-size: 0; max-height:0; line-height: 0;"width="400" border="0" cellspacing="0" cellpadding="0" align="center">
+								 <tbody>
+									<tr>
+										<td width="90" style="color: #353535; font-family: Helvetica, sans-serif; text-align: center; font-size:0px; max-height:0; line-height: 0; font-weight: normal; margin:0; padding:0;  border: 0;"><a href="http://www.pet360.com/shop/dog/food?MobileNav" target="_blank" style="color: #353535; text-decoration: none; text-transform:uppercase">Dog Food</a></td>
+										<td width="1" height="20" style="background-color:#353535; display: block; margin: 5px 8px 5px 5px; padding: 0; max-height:0; line-height: 0;  border: 0;"></td>
+										<td width="90" style="color: #353535; font-family: Helvetica, sans-serif; text-align: center; font-size:0px; max-height:0; line-height: 0; font-weight: normal; margin:0; padding:0;  border: 0;"><a href="http://www.pet360.com/shop/cat/food?MobileNav" target="_blank" style="color: #353535; text-decoration: none; text-transform:uppercase">Cat Food</a></td>
+										<td width="1" height="20" style="background-color:#353535; display: block; margin: 5px 8px 5px 5px; padding: 0; max-height:0; line-height: 0;  border: 0;"></td>
+										<td width="90" style="color: #353535; font-family: Helvetica, sans-serif; text-align: center; font-size:0px; max-height:0; line-height: 0; font-weight: normal; margin:0; padding:0; "><a href="http://www.pet360.com/shop/pharmacy/veterinary-diets?MobileNav" target="_blank" style="color: #353535; text-decoration: none;text-transform:uppercase">Vet Diets</a></td>
+										<td width="1" height="20" style="background-color:#353535; display: block; margin: 5px 8px 5px 5px; padding: 0; max-height:0; line-height: 0;  border: 0;"></td>
+										<td width="90" style="color: #353535; font-family: Helvetica, sans-serif; text-align: center; font-size:0px; max-height:0; line-height: 0; font-weight: normal; margin:0; padding:0;"><a href="http://www.pet360.com/shop/pharmacy?MobileNav" target="_blank" style="color: #353535; text-decoration: none;text-transform:uppercase">Pharmacy</a></td>
+									</tr> 
+								 </tbody>
+								</table>
+							  	 <table class="bigmenu" style="padding-right: 2px;" width="100%" border="0" cellspacing="0" cellpadding="0" valign ="bottom" align="right">
+									<tr height="40" style="right:0px; background-color: #0D5CAB;">
+										<td class="menu tab1" width="80px" style="background-color: #0D5CAB; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; padding: 0px 4px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/dog?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Dog Center</a></td>
+										<td width="2px" style="background-color: #0D5CAB;"></td>
+										<td class="menu tab2" width="80px" style="background-color: #0D5CAB; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; padding: 0px 4px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/cat?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Cat Center</a></td>
+										<td width="2px" style="background-color: #0D5CAB;"></td>
+										<td class="menu	tab3" width="80px" style="background-color: #0D5CAB; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; padding: 0px 4px; color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/nav/Pharmacy-Veterinary-Diets?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Vet Diets</a></td>
+										<td width="2px" style="background-color: #0D5CAB;"></td>
+										<td class="menu	tab4" width="80px" style="background-color: #0D5CAB; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; color: #ffffff; font-family: Arial, Helvetica, sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/pharmacy?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Pharmacy</a></td>
+									</tr>
+								</table>
+							 </td>
+							</tr>
+						</table>  
+					 </td>
+				   </tr>
+				 </table>
+				 </div>
+			   </td>
+			  </tr>
+			</table>
+			<!-- top bg -->
+			<br>
+			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;">
+			  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+				<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
+				
+				<!-- content start -->
+				
+			  	<!-- Front Image -->
+				  <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+					   <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td class="imgholder" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+							  <h4 style="color: #C51230; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 28px; margin: 0; padding: 0;" align="center">Get All Your Needs in One Place</h4>
+							<!--  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Enjoy this <strong>exclusive</strong> offer.</p> -->
+							</td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td class="imgholder" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+							  <h4 style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 22px; margin: 0; padding: 0;" align="center">Refill Your Pet&lsquo;s Medication Today to SAVE...</h4>
+							<!--  <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="left">Enjoy this <strong>exclusive</strong> offer.</p> -->
+							  <a href="http://www.petfooddirect.com?main">
+							  	<img width="580" src="http://www.pet360.com/bluehornetimages/PFD/Lapsed/Lapsed-10PercentOff.jpg" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" align="left" />
+							  </a>
+							</td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						</table>
+					 </td>
+					</tr>
+				  </table>
+				  <table class="row offertext" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+					    <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="center">
+							<strong>EXTRA 10&#37; OFF</strong><br />your pet&lsquo;s favorite food!<br>Use Code: <strong>XXX</strong></p></td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						</table>
+					 </td>
+					</tr>
+				  </table>
+				  <table class="rowb" width="100%" align="center">
+					<tr style="vertical-align: top; padding: 0;" align="center">
+					  <td valign="top">
+					   <a href="http://www.petfooddirect.com?ShopNowCTA" target="_blank" style="text-decoration:none !important;">
+					    <table class="button medium-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 40%; overflow: hidden; padding: 0;">
+							<tr style="vertical-align: top; text-align: left; padding: 0;" align="center">
+							 <td align="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 12px 0 10px; border: 1px solid #357ebd; color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 20px;" valign="top">SHOP NOW</td>
+							</tr>
+						</table>
+						</a>
+					  </td>
+					</tr>
+				  </table>
+				  <!-- Front Image End -->
+
+				  
+				  <!-- Divider begin -->
+				 <!-- <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="center" valign="top">
+					   <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+							-->	<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none; margin:20px 0px;" /><!--</td>
+						  </tr>
+						</table>
+						</td>
+					</tr>
+				  </table>-->
+				  <!-- Divider End -->		
+		    	   <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper quadimg" width="580" style="width:580; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+					     <table class="imgtitle">
+					   	 <tr><td>
+					   	 <h4 style="color: #C51230; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 24px; margin: 0; padding: 0;" align="left">Super Food Sale</h4>
+					   	 <p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 21px; font-size: 18px; margin: 10px 0 10px; padding: 0;" align="center">Order your pet&lsquo;s food from us and...</p>
+					   	 <img src="http://www.pet360.com/bluehornetimages/PFD/Lapsed/Lapsed-50PercentOff.jpg"/></td></tr>
+					    </table>
+					     <table class="row offertext" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+							<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+								<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+								  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+									<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 21px; font-size: 18px; margin: 0 0 10px; padding: 0;" align="center">
+									Get up to<strong> 50&#37; OFF</strong><br />the pet food of your choice!&#42;</p></td>
+									<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+								  </tr>
+								</table>
+							 </td>
+							</tr>
+						  </table>
+					    <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"><p class="lead" style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 21px; font-size: 18px; margin: 10px 0 10px; padding: 0;" align="center">Take Your Pick</p></td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						</table>
+						
+					  </td>
+					</tr> 
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="center">
+					 <td> 
+						<table class="imagebuttons" width="100%" align="center" border="0" margin="0" cellpadding="0" cellspacing="0">
+						 <tr>
+						   <td>
+							<table class = "img1" width="250" height="290" valign="top" align="left" style="padding-bottom: 35px;"><tr>
+							  <td align="center" border="0" margin="0" cellpadding="0" cellspacing="0">
+                            		<a href="https://www.petfooddirect.com/sitesearch?w=Dry%20Food&DryFoodImage" style="color: #428bca; text-decoration: none;"><img width="250" src="http://www.petfooddirect.com/BlueHornetImages/PFD/Lapsed/dryfood_heroes-v2.jpg" alt="Shop Dry Food" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:250px; float: left; clear: both; display: block; border: none;" align="left" /></a>
+							   </td>
+							  </tr>
+							  <tr>
+								<td border="0" margin="0" cellpadding="0" cellspacing="0" valign="top" width="300" height="60" style="color: #232323; font-family: Arial, Helvetica, sans-serif; text-align: left; font-size:14px; font-weight: normal; margin:0; padding:0;  border: 0;">
+									<ul style="padding-top:0px; margin:0px;">
+										<li>Crunchy texture</li>
+										<li>Easy to measure and store</li>
+										<li>Perfect for cats that graze</li>
+									</ul>
+							  </td>
+							</tr>
+							  <tr>
+							     <td border="0" margin="0" cellpadding="0" cellspacing="0" class="gridbut" style="padding:4px 15px;">
+							     <a href="https://www.petfooddirect.com/sitesearch?w=Dry%20Food&CTA" target="_blank" style="color: #ffffff; text-decoration: none; !important">
+									<table class="button small-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+										<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+										  <td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight:bold; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 8px 0 7px; border: 1px solid #357ebd;" align="center" bgcolor="#0d5cab" valign="top">
+											SHOP DRY FOOD
+										  </td>
+										</tr>
+									</table>
+									</a>
+								</td>
+							  </tr>
+						    </table>
+						    <table border="0" margin="0" cellpadding="0" cellspacing="0" class = "img2" width="250" height="290" valign="top" align="right" style="padding-bottom: 35px;">
+						    	<tr>
+						    		<td border="0" margin="0" cellpadding="0" cellspacing="0" align="center">
+                            			<a href="https://www.petfooddirect.com/sitesearch?w=Canned%20Food&CannedFoodImage" style="color: #428bca; text-decoration: none;"><img width="250" src="http://www.petfooddirect.com/BlueHornetImages/PFD/Lapsed/canned-heroes.jpg" alt="Shop Canned Food" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:250px; float: left; clear: both; display: block; border: none;" align="left" /></a>
+						    		</td>
+						    	</tr>
+							  	<tr>
+									<td border="0" margin="0" cellpadding="0" cellspacing="0" valign="top" width="300" height="60" style="color: #232323; font-family: Arial, Helvetica, sans-serif; text-align: left; font-size:14px; font-weight: normal; margin:0; padding:0;  border: 0;">
+										<ul style="padding-top:0px; margin:0px;">
+											<li>Aids in hydration</li>
+											<li>High-protein diet</li>
+											<li>Soft and moist for easy digestion</li>
+										</ul>
+								  </td>
+								</tr>
+								<tr>
+							     <td border="0" margin="0" cellpadding="0" cellspacing="0" class="gridbut" style="padding:4px 15px;">
+							     <a href="https://www.petfooddirect.com/sitesearch?w=Canned%20Food&CTA" target="_blank" style="color: #ffffff; text-decoration: none; !important">
+									<table class="button small-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+										<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+										  <td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: bold; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 8px 0 7px; border: 1px solid #357ebd;" align="center" bgcolor="#0d5cab" valign="top">
+											SHOP CANNED FOOD
+										  </td>
+										</tr>
+									</table>
+									</a>
+								</td>
+							  </tr>
+						    </table>
+						  </td>
+						 </tr>
+						 <tr>
+						   <td>
+							<table border="0" margin="0" cellpadding="0" cellspacing="0" class = "img1" width="250" height="290" valign="top" align="left" style="padding-bottom: 35px;">
+							   <tr>
+								<td border="0" margin="0" cellpadding="0" cellspacing="0" align="center">
+                            		<a href="https://www.petfooddirect.com/sitesearch?w=Raw%20Frozen%20Food&RawFrozenFoodImage" style="text-decoration: none;"><img width="250" src="http://www.petfooddirect.com/BlueHornetImages/PFD/Lapsed/frozen-heroes.jpg" alt="Shop Dry Food" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:250px; float: left; clear: both; display: block; border: none;" align="left" /></a>
+								</td>
+							   </tr>
+							   <tr>
+									<td border="0" margin="0" cellpadding="0" cellspacing="0" valign="top" width="300" height="60" style="color: #232323; font-family: Arial, Helvetica, sans-serif; text-align: left; font-size:14px; font-weight: normal; margin:0; padding:0;  border: 0;">
+										<ul style="padding-top:0px; margin:0px;">
+											<li>Zero nutrient loss</li>
+											<li>Builds immunity health</li>
+											<li>High protein, grain-free diets</li>
+										</ul>
+								  </td>
+								</tr>
+							  <tr>
+							     <td border="0" margin="0" cellpadding="0" cellspacing="0" class="gridbut" style="padding:4px 15px;">
+							     <a href="https://www.petfooddirect.com/sitesearch?w=Raw%20Frozen%20Food&CTA" target="_blank" style="color: #ffffff; text-decoration: none; !important">
+									<table class="button small-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+										<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+										  <td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: bold; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 8px 0 7px; border: 1px solid #357ebd;" align="center" bgcolor="#0d5cab" valign="top">
+											SHOP FROZEN / RAW FOOD
+										  </td>
+										</tr>
+									</table>
+									</a>
+								</td>
+							  </tr>
+						    </table>
+						    <table border="0" margin="0" cellpadding="0" cellspacing="0" class = "img2" width="250" height="290" valign="top" align="right" style="padding-bottom: 35px;">
+						    	<tr>
+						    		<td border="0" margin="0" cellpadding="0" cellspacing="0" align="center">
+                            			<a href="https://www.petfooddirect.com/sitesearch?w=Dehydrated%20Food&DehydratedFoodImage" style="color: #428bca; text-decoration: none;"><img width="250" src="http://www.petfooddirect.com/BlueHornetImages/PFD/Lapsed/dehydrated-heroes.jpg" alt="Shop Canned Food" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width:250px; float: left; clear: both; display: block; border: none;" align="left" /></a>
+						    		</td>
+						    	</tr>
+						    	<tr>
+								<td border="0" margin="0" cellpadding="0" cellspacing="0" valign="top" width="300" height="60" style="color: #232323; font-family: Arial, Helvetica, sans-serif; text-align: left; font-size:14px; font-weight: normal; margin:0; padding:0;  border: 0;">
+									<ul style="padding-top:0px; margin:0px;">
+										<li>Low nutrient loss</li>
+										<li>Great for "mixing"</li>
+										<li>Packed with vitamins &amp; nutrients</li>
+									</ul>
+							  </td>
+							</tr>
+							  <tr>
+							     <td border="0" margin="0" cellpadding="0" cellspacing="0" class="gridbut" style="padding:4px 15px;">
+							     <a href="https://www.petfooddirect.com/sitesearch?w=Dehydrated%20Food&CTA" target="_blank" style="color: #ffffff; text-decoration: none; !important">
+									<table class="button small-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden; padding: 0;">
+										<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+										  <td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: bold; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 8px 0 7px; border: 1px solid #357ebd;" align="center" bgcolor="#0d5cab" valign="top">
+											 SHOP FREEZE DRIED &amp; DEHYDRATED
+										  </td>
+										</tr>
+									</table>
+									</a>
+								</td>
+							  </tr>
+						    </table>
+						  </td>
+						 </tr>
+						</table>
+					  </td>
+					</tr>
+				 </table>
+				 	<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none; margin:20px 0px;" />
+				  <!-- Top Brands -->
+				<table class="row brandwrap" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: center; width: 100%; position: static; display: block; padding:0px;">
+					<tr style="vertical-align: top; text-align: center; padding: 0;" align="center">
+					  <td class="wrapper" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; position: static; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 96px 0px 96px;" align="center" valign="top">
+						<div align="center" style="width: 100%;">
+							 <h4 style="color: #C51230; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center; line-height: 1.3; word-break: normal; font-size: 28px; margin: 0; padding: 0;" align="center">
+								Looking For Something New?
+							 </h4>
+							 <p style="font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: center;">Find what you need from 350+ top-rated brands!</p>
+						</div>
+					  </td>
+					</tr>
+				  </table>
+				 <table class="row brands" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: center; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper" align="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 0px;" valign="top">
+					   <table class="half-brand" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="center">
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="http://www.petfooddirect.com/nav/Merrick?ref=b_hp_merrick" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.petfooddirect.com/BlueHornetImages/PFD/ProspectFlow/partials/top-brands/PFD_WelcomeFlow_Day1-Merrick.jpg" alt="Merrick" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="http://www.petfooddirect.com/nav/Wellness?ref=b_hp_wellness" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.petfooddirect.com/BlueHornetImages/PFD/ProspectFlow/partials/top-brands/PFD_Logos_Wellness.jpg" alt="Wellness" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="https://www.petfooddirect.com/nav/Pro-Plan?ref=b_hp_ProPlan" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.petfooddirect.com/BlueHornetImages/PFD/ProspectFlow/partials/top-brands/PFD_WelcomeFlow_Day1-PurinaProPlan.jpg" alt="Purina Pro Plan" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+						  </tr>
+						</table>
+					  </td>
+					  <td class="wrapper" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="center" valign="top">
+					  <table class="half-brand" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="https://www.petfooddirect.com/nav/Nature's-Recipe" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.petfooddirect.com/BlueHornetImages/PFD/ProspectFlow/partials/top-brands/PFD_WelcomeFlow_Day1-NaturesRecipe.jpg" alt="Natures Recipe" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="https://www.petfooddirect.com/nav/Royal-Canin" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.pet360.com/bluehornetimages/PFD/Promotional/Lapsed-Logo-RoyalCanin.png" alt="Royal Canin Veterinary Diet" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: 110px; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+							<td class="sub-columns" style="border-collapse: collapse !important; vertical-align: top; min-width: 0px; width: 90px; color: #222222; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+								<a href="https://www.petfooddirect.com/nav/Blue-Buffalo" style="color: #428bca; text-decoration: none;">
+									<img width="80" src="http://www.petfooddirect.com/BlueHornetImages/PFD/ProspectFlow/partials/top-brands/PFD_WelcomeFlow_BlueBuffalo.jpg" alt="Blue Buffalo" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block; border: none;" align="center" />
+								</a>
+							</td>
+						  </tr>
+						</table>
+					  </td>
+					</tr>
+				</table>
+				<table class="rowb" width="100%" align="center">
+					<tr style="vertical-align: top; padding: 0;" align="center">
+					  <td valign="top">
+					   <a href="http://www.petfooddirect.com?ShopNowCTA" target="_blank" style="text-decoration:none !important;">
+					    <table class="button medium-button radius midbutton" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 40%; overflow: hidden; padding: 0;">
+							<tr style="vertical-align: top; text-align: left; padding: 0;" align="center">
+							 <td align="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 12px 0 10px; border: 1px solid #357ebd; color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 20px;" valign="top">SHOP BY BRAND</td>
+							</tr>
+						</table>
+						</a>
+					  </td>
+					</tr>
+				  </table> 
+				  <!-- Top Brands End-->
+				  				  <!-- Divider begin -->
+				 <!-- <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="center" valign="top">
+					   <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+						-->		<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none; margin:20px 0px;" /><!--</td>
+						  </tr>
+						</table>
+						</td>
+					</tr>
+				  </table>-->
+				   <!-- Divider End -->
+				   
+								  <!-- Logo and blurb with Shop button -->
+				  <!-- Entry 1 (AutoShip) -->
+				  <table class="row shipper" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					
+					<!-- Logo -->
+					  <td class="wrapper logo" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 0px;" align="left" valign="top">
+					  	<table class="four columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 180px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+							  <center style="width: 100%; min-width: 180px;">
+								<a href="http://www.petfooddirect.com/autoship?logo"><img width="180" src="http://www.pet360.com/bluehornetimages/PFD/Promotional/PFD-Lapsed-autoshipbox.png" class="icon" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: none; clear: both; display: block;" align="none" /></a>
+							  </center>
+							</td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						</table>
+					  </td>
+					  <!-- Logo  End -->
+					  
+					   <td class="wrapper shipdesc" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+					    <table class="eight columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 380px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+							<!-- Blurb -->
+							  <p class="lead gray shiptext" style="color: #C51230; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 25px; font-size: 1em; margin: 0 0 10px; padding: 0;" align="left"><strong>Q: &ldquo;How do I decide the correct Auto Ship frequency for my pet&rsquo;s medication?&rdquo;</strong></p>
+							  <p  class="shiptext"style="color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 22px; font-size: 1em; margin: 0 0 10px; padding: 0;" align="left"> A: It's been 2 months since your last order. If you still have a few days of medication left, a 2-month frequency would be the perfect frequency for you. Remember, You can always adjust your Auto Ship later if you need to!</p>
+							<!-- Blurb End -->
+							<!-- Learn More Button -->
+ 								<a href="http://www.petfooddirect.com/autoship?learnmore" target="_blank" style="text-decoration:none !important;">
+ 								<table class="rowb" width="100%">
+									<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  					<td valign="top">
+										 <table class="button small-button radius midbutton" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 50%; overflow: hidden; padding: 0;">
+											<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+											  <td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background: #0d5cab; margin: 0; padding: 12px 0px; border: 1px solid #357ebd;" align="center" bgcolor="#0d5cab" valign="top">
+											  	<p style="color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 16px; margin:0px !important;">LEARN MORE</p>
+											  	
+											  </td>
+											  
+											</tr>
+										  </table>
+										  
+										  <table class = spacer width="30%" align="right">
+							 				<tr>
+												<td style="vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  					</tr>
+										  </table>
+										</td>
+									</tr>
+								</table>
+								</a>
+							<!-- Learn More End -->
+							 </td>
+							 <td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						  </tr>
+						</table>
+					   </td>  
+					</tr>
+				  </table>
+				  <!-- Entry 1 (AutoShip) End-->
+				
+				   
+				  <!-- Logo and blurb with Shop button End -->
+				 <!-- Divider begin -->
+				<!-- <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="center" valign="top">
+					   <table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" valign="top">
+							-->	<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none; margin:20px 0px;" /><!--</td>
+						  </tr>
+						</table>
+						</td>
+					</tr>
+				  </table>-->
+				   <!-- Divider End -->
+				 <table class="row servicecon" align="center" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: static; display: block; padding-left: 0px;">
+				    <tr style="vertical-align: top;  padding: 0;" align="center">
+						<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top;  color: #222222;  margin: 0; padding: 0px 0px 0px;" align="center" valign="top">
+								<table class="pfdservices" align="center" width="580" style="padding-left:8px; padding-bottom:0px;">
+									<tr>
+										<td align="center" width="80" style="padding: 0px 15px;" class="svc bonus"><a href="http://www.petfooddirect.com/AutoShip?BonusBrandsIcon" target="_blank"><img src="http://www.petfooddirect.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_BB-v3.png" /></a></td>
+										<td align="center" width="80" style="padding: 0px 15px;" class="svc rewards"><a href="http://www.petfooddirect.com/pfdrewards?RewardsIcon" target="_blank"><img src="http://www.petfooddirect.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_Rewards-v3.png" alt="PFD Rewards: Earn Points - Get Rewards!"/></a></td>
+										<td align="center" width="80" style="padding: 0px 15px;" class="svc bonus"><a href="http://www.petfooddirect.com/AutoShip?AutoShipIcon" target="_blank"><img src="http://www.petfooddirect.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_AutoShip-v4.png"  alt="Save 15% on Every Order* with Auto Ship!" /></a></td>
+										<td align="center" width="80" style="padding: 0px 15px;" class="svc bonus"><a href="http://www.petfooddirect.com/pharmacy?PharmacyIcon" target="_blank"><img src="http://www.petfooddirect.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_Rx-v3.png" /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+				</table>       
+				<!-- Footer Menu For Mobile --> 
+				  <table class="row footmenu mobilehide" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: none; padding: 0px;">
+					<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+					  <td class="wrapper offset-by-one" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 50px;" align="left" valign="top">
+					    <table class="four columns" border="0" cellpadding="0" cellspacing="0" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 180px; margin: 0 auto; padding: 0;">
+						  <tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+							<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+								<table class="footmenu mobilehide" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="display:none; overflow:hidden; font-size: 0; max-height:0; line-height: 0;">
+									<tr>
+									  <td width="100%" colspan="2" align="center" style="padding-left:0px; padding-Bottom:15px;">                     
+										<table class="footmenu-in mobilehide" width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="display:none; overflow:hidden; font-size: 0; max-height:0; line-height: 0;">
+											<tr>
+                                                <td class="footshop" style="padding-top:0px;">
+                                                    <a href="http://www.petfooddirect.com/dog/?MobileFooter" target="_blank" style="text-decoration:none !important;">
+                                                    <div valign="top" style="display:none; text-align: center; background-color: #0d5cab; border-radius: 3px; position:relative; left:10px; color:#fff; overflow:hidden; font-size: 0; max-height:0; line-height: 0; font-family: Helvetica, sans-serif;">
+                                                    Dog Center</div></a>
+                                                </td>
+                                            </tr>
+											<tr>
+												<td class="footshop" style="padding-top:5px">
+													<a href="http://www.pet360.com/cat?MobileFooter" target="_blank" style="text-decoration:none !important;">
+													<div valign="top" style="display:none; text-align: center; background-color: #0d5cab; border-radius: 3px; position:relative; left:10px; color:#fff; overflow:hidden; font-size: 0; max-height:0; line-height: 0; font-family: Helvetica, sans-serif;">
+													Cat Center</div></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="footshop" style="padding-top:5px">
+													<a href="http://www.petfooddirect.com/flea-and-tick-center?MobileFooter" target="_blank" style="text-decoration:none !important;">
+													<div valign="top" style="display:none; text-align: center; background-color: #0d5cab; border-radius: 3px; position:relative; left:10px; color:#fff; overflow:hidden; font-size: 0; max-height:0; line-height: 0; font-family: Helvetica, sans-serif;">
+													Flea &amp; Tick</div></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="footshop" style="padding-top:5px">
+													<a href="http://www.petfooddirect.com/brands?MobileFooter" target="_blank" style="text-decoration:none !important;">
+													<div valign="top" style="display:none; text-align: center; background-color: #0d5cab; border-radius: 3px; position:relative; left:10px; color:#fff; overflow:hidden; font-size: 0; max-height:0; line-height: 0; font-family: Helvetica, sans-serif;">
+													Shop By Brand</div></a>
+												</td>
+											</tr>
+											<tr>
+												<td class="footshop" style="padding-top:5px">
+													<a href="https://www.petfooddirect.com/sitesearch?w=made%20in%20usa&MobileFooter" target="_blank" style="text-decoration:none !important;">
+													<div valign="top" style="display:none; text-align: center; background-color: #0d5cab; border-radius: 3px; position:relative; left:10px; color:#fff; overflow:hidden; font-size: 0; max-height:0; line-height: 0; font-family: Helvetica, sans-serif;">
+													Made in USA</div></a>
+												</td>
+											</tr>
+										</table>
+									   </td>
+									 </tr>
+								  </table>
+								</td>
+						 	 </tr>
+						</table>
+					  </td>
+					</tr>  
+				  </table>
+				<!-- Footer Menu For Mobile End --> 
+
+				      <table class="smallfootmenu" width="580" cellspacing="0" cellpadding="0" border="0" margin="0" align="center"  style="background-color: #ffffff; margin:0px;">
+					  <tbody>
+                        <tr bgcolor="#0D5CAB" style="font-size:12px; color:#ffffff; font-family: Verdana,Arial,Helvetica,sans-serif; font-weight:bold;">
+                          <td class="bottmenu" width="93" align="center" style=" padding:15px 0px 15px 0px; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; border-top: 2px solid #0D5CAB;" -><a class="menutext" href="http://www.petfooddirect.com/dog?Footer" alt="Dog Center" style="color:#ffffff; text-decoration:none">DOG CENTER</a></td>
+                          <td class="bottmenu" width="94" align="center" style=" padding:15px 0px 15px 0px; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/cat?Footer" alt="Cat Center" style="color:#ffffff; text-decoration:none">CAT CENTER</a></td>
+                          <td class="bottmenu" width="113" align="center" style=" padding:15px 0px 15px 0px; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/flea-and-tick-center?Footer" alt="Flea & Tick" style="color:#ffffff; text-decoration:none">FLEA &amp; TICK</a></td>
+                          <td class="bottmenu" width="126" align="center" style=" padding:15px 0px 15px 0px; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; border-top: 2px solid #0D5CAB;"><a class="menutext" href="http://www.petfooddirect.com/brands?Footer" alt="Shop By Brand" style="color:#ffffff; text-decoration:none">SHOP BY BRAND</a></td>
+                          <td class="bottmenu" width="136" align="center" style=" padding:15px 0px 15px 0px; border-left:2px solid #0D5CAB; border-right:2px solid #0D5CAB; border-top: 2px solid #0D5CAB;"><a class="menutext" href="https://www.petfooddirect.com/sitesearch?w=made%20in%20usa&Footer" alt="Made in USA Shop" style="color:#ffffff; text-decoration:none;">MADE IN U.S.A.</a></td>
+                        </tr>
+					  </tbody>
+					</table>
+				   <table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;">
+				    <tr style="vertical-align: top; text-align: left; padding: 0;">
+						<td class="socialcon" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 0px;" align="center" valign="top">
+						<table class="socialtop" align="center" width="580" bgcolor="#f2f2f2">
+							<tr>	
+							<td style="font-family:Arial, Helvetica, sans-serif; color:#0e5bab; text-align:center; padding:8px 0px;" >FOLLOW US</td>
+							</tr>
+						</table>
+						<table class="socialbott" align="center" width="580" bgcolor="#f2f2f2">
+							<tr>	
+							<td style="padding:4px 0px;" align="center">
+								<table class="social" align="center">
+									<tr>
+									<td class="soc facebook" align="center" style="padding:0px 25px;"><a href="http://www.facebook.com/petfooddirect" target="_blank"><img src="http://www.pet360.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_FB.png" alt="Like us on Facebook"/></a> </td>
+									<td class="soc twitter" align="center" style="padding:0px 25px;"><a href="https://twitter.com/#!/petslovepfd" target="_blank"><img src="http://www.pet360.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_Twitter.png" alt="Follow us on Twitter"/></a> </td>
+									<td class="soc pinterest" align="center" style="padding:0px 25px;"><a href="http://pinterest.com/source/petfooddirect.com/" target="_blank"><img src="http://www.pet360.com/bluehornetimages/PFD/Promotional/PDF_Circular_Footer_Pinterest.png" alt="Follow us on Pinterest"/></a> </td> 
+									</tr>
+								</table>
+							</td>
+							</tr>
+							<tr>
+							  <td align="left" bgcolor="#f2f2f2" colspan="5" style="font-size:10px; text-align:left; font-family: Verdana,Arial,Helvetica,sans-serif; padding:10px"><p style="color:#666;"><strong>*Coupon valid for 7 days from date of this email.</strong> This coupon is valid for $10 off orders $79+.  One time use per customer. Enter promo code at checkout to redeem. Not valid outside the continental United States. Not for use in combination with any other offer, Auto Ship discounts, loyalty or reward websites. Code will not be applied to future processed Auto Ship future orders. Free ground shipping automatically applies to orders $49 or more, no code required. Ground ship only, and excludes frozen items and orders shipping to AK and HI.
+                              <br /><br />
+                              You can also place your order by telephone! Call us toll-free at 1-877-PET-FOOD. Be sure to mention the following promo code: <strong>IMBACK10</strong> for your savings.
+                              </p></td>
+							</tr>
+							<tr>
+							  <td align="left" bgcolor="#f2f2f2" colspan="5" style="font-size:10px; text-align:left; font-family: Verdana,Arial,Helvetica,sans-serif; padding:10px"><span style="color:#333; font-weight:bold;"><a href="http://www.petfooddirect.com/email-preferences?email=%%to_email%%" alt="Manage your email preferences" style="color:#333; text-decoration:none;">UNSUBSCRIBE</a> | <a href="https://www.petfooddirect.com/privacy-policy-pfd" alt="Privacy Policy" style="color:#333; text-decoration:none;">PRIVACY POLICY</a> | <a href="%%FORWARDTHIS%%" alt="Forward to a Friend" style="color:#333; text-decoration:none; font-family: Verdana,Arial,Helvetica,sans-serif;">FORWARD TO A FRIEND</a></span><br />
+								<span style="color:#666;">&copy;2016 PetFoodDirect.com, 2260 Butler Pike, Suite 100, Plymouth Meeting, PA 19462</span></td>
+							</tr>
+						</table>
+						</td>
+						</tr>
+					</table>
+
+				  <!-- container end below -->
+				  </td>
+			  </tr>
+			</table>
+		  </div>
+		</td>
+	  </tr>
+	</table>
+</div>
+</center>
+</body>

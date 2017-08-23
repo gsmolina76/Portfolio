@@ -1,0 +1,655 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<script type="text/javascript" src="https://use.typekit.net/yik7djv.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<title>National Nutrition Month</title>
+
+
+<style>
+table {border-spacing:0 !important;}
+
+table td{font-family: "proxima-nova-soft", sans-serif !important;}
+body { margin: 0; padding: 0; }
+table.listing{padding-top: 10px;}
+
+/* Animated menus */
+.menu:hover{
+	background-color:#ffffff !important;
+	color:#7b1858 !important;
+}
+
+.menu:hover a{
+	color:#7b1858 !important;
+
+}
+
+.tab1:hover{
+	border-top: 3px solid #f25822 !important;
+	border-left: 1px solid #f25822 !important;
+	border-right: 1px solid #f25822 !important;
+}
+
+.tab2:hover{
+	border-top: 3px solid #1eb2d0 !important;
+	border-left: 1px solid #1eb2d0 !important;
+	border-right: 1px solid #1eb2d0 !important;
+}
+
+.tab3:hover{
+	border-top: 3px solid #F122E5 !important;
+	border-left: 1px solid #F122E5 !important;
+	border-right: 1px solid #F122E5 !important;
+}
+
+.tab4:hover{
+	border-top: 3px solid #a7b931 !important;
+	border-left: 1px solid #a7b931 !important;
+	border-right: 1px solid #a7b931 !important;
+}
+
+@media only screen and (max-width:660px){
+
+	/* Set size of container elements */
+	div.container{width:510px !important; padding-top: 0px !important;}
+	table.container{width:480px !important;  padding-left:0px !important; padding-top: 0px !important;}
+	
+	/* Replace full-size images with mobile images, and adjust images to scale with the browser width */
+	td.coupon{display:none}
+	td.mobilecoupon{display:block !important; }
+	td.mobilecoupon img{width:100% !important; height:auto !important; background-size: contain;}
+	td.autoship{display:none}
+	td.mobileautoship{display:block !important;}
+	td.mobileautoship img{width:100% !important; background-size: contain;}
+	td.divider{width:100% !important;}
+	td.shopall img{width:100% !important; height:auto !important;}
+	td.kittenshop img{width:100% !important; height:auto !important;}
+	
+	/* Remove graphical menu and replace with text menu */
+	td.bigmenu{display:none}
+	table.smallmenu{display:block !important;}
+	
+	/* Remove image from headline and center text */ 
+	table.seasonal1{width:100% !important;}
+	table.seasonleft{display:none}
+	table.seasonright td{text-align:center !important; }
+	
+	/* Seasonal headline text ('Get Set for Spring!') */
+	table.seasonright{width:100% !important; padding:13px 10px !important;}	
+	table.seasonright tr:nth-child(2) td{ font-size:12px !important; padding:8px 68px 0px 68px !important;}  /* targets text after the header */
+	
+	/* Re-orders tables where the cell that needs to go on top is on the right (changes need to be made to both 'even' and 'fixer' tables in the html) */
+	table.even{display:none !important;}
+	table.fixer{display:block !important; padding-top:10px;}
+	
+	/* pet360 logo and Free Shipping logo (only pet360 displays below full size) */
+	td.logo{padding-left:161px;}
+	td.shipping{display:none;}
+	
+	/* listing is a container of an entire Deal listing - leftside is the image */
+	table.listing{width:100% !important}
+	table.leftside{width:100% !important; padding-left:103px !important;}
+	table.leftside td{padding-left: 20px !important;}
+	
+	
+	/* These table cels are where most of the text goes, these are the descriptions for each item */
+	table.rightside{width:100% !important; clear:left;}
+	table.desc{padding:0 145px !important;}
+	table.desc td{text-align:center !important;}
+	
+	
+	/* Shop Now buttons */
+	td.shop{padding: 15px 67px 15px 75px !important;}
+	
+	
+	/* Featured deal image */
+	table.deal{width: 100% !important;}
+	table.deal td img{width: 100% !important;}
+	table.circpic{padding-left:147px !important}
+	
+	
+	/* adds footer menu buttons - initial styles inline */
+	table.footmenu{display:block !important;}
+	
+	
+	/* Social icons, Pharmacy image and Legal info */
+	table.bottomfoot{width:100% !important; padding-left: 35px;}
+	table.footright{width:100% !important; clear:left; padding-left: 140px !important;}
+	table.footcenter{padding-left: 128px !important;}
+	
+}
+
+@media only screen and (max-width:510px){
+
+	/* Set size of container elements */
+	div.container {width:510px !important; padding-left:0; padding-right:0 !important;}
+	table.container {width:100% !important; padding-left:0 !important; padding-right:0 !important;}
+	
+	/* size adjustments to elements for centering, etc */
+	td.logo{padding-left:147px; width:100% ;}
+	table.smallmenu{padding-left: 34px !important; }
+	table.leftside {width: 100% !important; padding-left: 74px !important;}
+	table.circpic{padding-left:118px !important;}
+	td.shop{padding: 15px 66px 15px 66px !important;}
+	
+	/* Deal descriptor text */
+	table.desc{padding:0px 100px 0px 90px !important;}
+	
+	/* Adjustment to images */
+	td.shopall{display:none}
+	td.mobileshopall{display:block !important; padding-top:0 !important; width:100% !important; background-size: contain; padding-left:0 !important; padding-right:0 !important;}
+	td.mobileshopall img{width:100% !important; background-size: contain;}
+	td.autoship{background-size:contain !important; padding:4px 0px !important; width:510px !important; height:75px !important;}
+	td.kittenshop img{width:100% !important; height:auto !important;}
+	td.seasonhead {background-size:contain !important; padding-left:0 !important; padding-right:0 !important; background-position:center center;}
+	
+	/* Footer buttons */
+	table.footmenu td{padding-left:0 !important; padding-right:0 !important;}
+	table.footmenu div{padding-left:0 !important; padding-right:0 !important;}
+	
+	
+	/* Social icons, Pharmacy image and Legal info */
+	table.footer{width:100% !important;}
+	td.footover{position:relative; left:-47px}
+	table.bottomfoot{padding-left:0 !important}
+	table.footcenter{width:83% !important; padding-left:192px !important;}
+	table.footright{padding-left: 214px !important;}
+}
+
+@media only screen and (max-width:411px){
+	/* Set size of container elements */
+	div.container {width:385px !important; padding-left:0 !important; padding-right:0 !important;}
+	table.container {width:100% !important; padding-left:0 !important; padding-right:0 !important;}
+	table {padding-left:0 !important; padding-right:0 !important; width:100% !important;}
+	
+	/* Logo and text menu */
+	td.logo img{width:85% !important;}
+	td.logo{padding-left:55px; width:100% }
+	table.smallmenu{padding-left: 31px !important;}
+	table.smallmenu td:nth-child(odd){width:76px !important;}
+	
+	/* adjust title text for smaller screens */
+	table.seasonright tr:first-child td{font-size: 1rem !important; }
+	table.seasonright tr:nth-child(2) td{font-size: .6rem !important; padding: 6px 8px 6px 8px !important;}
+	
+	/* Product listing images */
+	table.listing{width:100% !important;}
+	table.leftside{padding-left:38px !important;}
+	table.leftside td{padding-left:6px !important;}
+	
+	/* Product Text */
+	table.desc{padding:0px 34px 0px 38px !important}
+	
+	/* Shop Now */
+	td.shop{padding: 15px 67px 15px 61px !important;}
+	
+	/* Images */
+	table.circpic img{width:60% !important; height:auto !important; padding-left: 50px !important;}
+	td.autoship{height:56px !important;}
+	
+	/* Footer buttons */
+	table.footmenu table{width:100% !important;}
+	table.footmenu td{padding-left:10px !important;} 
+	
+	/* Social icons, Pharmacy image and Legal info */
+	td.footover{left:-12px;}
+	table.footcenter{width:82% !important; padding-left:111px !important;}
+	table.footright{padding-left: 124px !important;}
+}
+
+@media only screen and (max-width:384px){
+	/* Set size of container elements */
+	div.container {width:360px !important !important; padding-left:0; padding-right:0 !important;}
+	table.container {width:100% !important; padding-left:0 !important; padding-right:0 !important;}
+	table {padding-left:0 !important; padding-right:0 !important; width:100% !important;}
+	
+	/* Logo and text menu */
+	td.logo img{width:85% !important;}
+	td.logo{padding-left:55px; width:100% }
+	table.smallmenu{padding-left: 22px !important;}
+	table.smallmenu td:nth-child(odd){width:76px !important;}
+	
+	/* adjust title text for smaller screens */
+	table.seasonright tr:first-child td{font-size: 1rem !important; }
+	table.seasonright tr:nth-child(2) td{font-size: .6rem !important; padding: 6px 8px 6px 8px !important;}
+	table.seasonright{padding:13px 23px !important;}
+	
+	/* Product listing images */
+	table.listing{width:100% !important;}
+	table.leftside{padding-left:20px !important;}
+	table.leftside td{padding-left:6px !important;}
+	
+	/* Product Text */
+	table.desc{padding:0px 32px !important;}
+	
+	/* Shop Now */
+	td.shop{padding: 15px 67px 15px 61px !important;}
+	
+	/* Images */
+	table.circpic img{width:60% !important; height:auto !important; padding-left: 50px !important;}
+	td.autoship{height:56px !important;}
+	
+	/* Footer buttons */
+	table.footmenu table{width:100% !important;}
+	table.footmenu td{padding-left:2px !important;} 
+	
+	/* Social icons, Pharmacy image and Legal info */
+	td.footover{left:-12px}
+	table.bottomfoot{padding-right: 0px !important;}
+	table.footcenter{width:82% !important; padding-left:101px !important;}
+	table.footright{padding-left: 115px !important;}
+}
+
+@media only screen and (max-width:359px){
+	/* Set size of container elements */
+	div.container {width:320px !important; padding-left:0 !important; padding-right:0 !important;}
+	
+	/*Text menu and Title adjustment */
+	table.smallmenu{padding-left: 4px !important;}
+	table.seasonright tr:nth-child(2) td{font-size: .6rem !important; padding: 6px 8px 6px 8px !important;}
+	
+	/* Product Images */
+	table.leftside{padding-left:3px !important;}
+	
+	/* Images */
+	table.circpic img{padding-left: 58px !important;}
+	
+	/* Social icons, Pharmacy image and Legal info */
+	td.footover{left:-42px}
+	table.footcenter{width:90% !important; padding-left:113px !important;}
+	table.footright{padding-left: 124px !important;}
+}
+
+</style>
+</head>
+<body>
+<div class="container" align="center" width="600">
+  
+        <table class="container" width="600" align="center" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; ">
+            <tbody>
+                <tr>
+                	<td>
+                		<table width="100%">
+                			<tr>
+                    		<td class="logo" valign="top" ><a href="http://www.pet360.com/shop?Logo" target="_blank"><img src="elements/Logo.png" alt="Pet360" border="0" /></a></td>
+                    		<td class="shipping" valign="top" style="padding-top:20px; padding-left: 60px;"><a href="http://www.pet360.com/shop?FreeShipping" target="_blank"><img src="fastfree.jpg" alt="Fast, Free Shipping Everyday on Orders $49 or more*" border="0" /></a></td>
+                    		</tr>
+                    	</table>
+                    	<table class="smallmenu" style="display:none; padding-left:88px;" width="400" border="0" cellspacing="0" cellpadding="0" align="center">
+            				<tbody>
+               					<tr>
+                    				<td width="87" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: center; font-size:13px; font-weight: normal; margin:0; padding:0;  border: 0;"><a href="http://www.pet360.com/shop/dog/food?nav" target="_blank" style="color: #232323; text-decoration: none; text-transform:uppercase">Dog Food</a></td>
+                   					<td><img width="2" height="34" src="http://www.pet360.com/BlueHornetImages/Pet360/NewEmailHeaderFooter/NavSeparator-Short.jpg" style="display: block; margin: 0; padding: 0;  border: 0;" alt="" /></td>
+                    				<td width="87" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: center; font-size:13px; font-weight: normal; margin:0; padding:0;  border: 0;"><a href="http://www.pet360.com/shop/cat/food?nav" target="_blank" style="color: #232323; text-decoration: none; text-transform:uppercase">Cat Food</a></td>
+                    				<td><img width="2" height="34" src="http://www.pet360.com/BlueHornetImages/Pet360/NewEmailHeaderFooter/NavSeparator-Short.jpg" style="display: block; margin: 0; padding: 0;  border: 0;" alt="" /></td>
+                    				<td width="87" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: center; font-size:13px; font-weight: normal; margin:0; padding:0; "><a href="http://www.pet360.com/shop/pharmacy/veterinary-diets?nav" target="_blank" style="color: #232323; text-decoration: none;text-transform:uppercase">Vet Diets</a></td>
+                    				<td><img width="2" height="34" src="http://www.pet360.com/BlueHornetImages/Pet360/NewEmailHeaderFooter/NavSeparator-Short.jpg" style="display: block; margin: 0; padding: 0;  border: 0;" alt="" /></td>
+                    				<td width="87" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: center; font-size:13px; font-weight: normal; margin:0; padding:0;"><a href="http://www.pet360.com/shop/pharmacy?nav" target="_blank" style="color: #232323; text-decoration: none;text-transform:uppercase">Pharmacy</a></td>
+                				</tr> 
+            				</tbody>
+        				</table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+          
+          <!--END HEADER-->
+          
+          <table class="container" width="600" align="center" cellpadding="0" cellspacing="0" style="background-color:#FFFFFF; padding-top: 25px;">
+            <tbody>
+             <tr>
+             	<td class="bigmenu" colspan="2" style="padding-right: 2px;">
+            	<table width="400" border="0" cellspacing="0" cellpadding="0" align="right">
+            			<tr height="40" style="right:0px; background-color: #ffffff;">
+            				<td class="menu tab1" width="75px" style="background-color: #7b1858; border-left:1px solid #7b1858; border-right:1px solid #7b1858; padding: 0px 4px; color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 3px solid #f25822;"><a href="http://www.pet360.com/shop/dog/food?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Dog Food</a></td>
+            				<td width="2px" style="background-color: #ffffff;"></td>
+            				<td class="menu tab2" width="75px" style="background-color: #7b1858; border-left:1px solid #7b1858; border-right:1px solid #7b1858; padding: 0px 4px; color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 3px solid #1eb2d0;"><a href="http://www.pet360.com/shop/cat/food?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Cat Food</a></td>
+            				<td width="2px" style="background-color: #ffffff;"></td>
+            				<td class="menu	tab3" width="75px" style="background-color: #7b1858; border-left:1px solid #7b1858; border-right:1px solid #7b1858; padding: 0px 4px; color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 3px solid #F122E5;"><a href="http://www.pet360.com/shop/pharmacy/veterinary-diets?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Vet Diets</a></td>
+            				<td width="2px" style="background-color: #ffffff;"></td>
+            				<td class="menu	tab4" width="75px" style="background-color: #7b1858; border-left:1px solid #7b1858; border-right:1px solid #7b1858; color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: center; font-size:16px; font-weight: normal; border-top: 3px solid #a7b931;"><a href="http:///www.pet360.com/shop/pharmacy?nav" target="_blank" style="color: #ffffff; text-decoration: none; text-transform:uppercase;">Pharmacy</a></td>
+            			</tr>
+            	</table>
+            	</td>
+              </tr>
+              <tr>
+               <td valign="top" style="padding-bottom:12px">
+              	<table class="seasonal1" style="background-color:#f15922; width:100%;" valign="top" >
+              		<tr>
+              		 <td>
+              			<table class="seasonleft" align="left" width="120px">
+              			<tr>
+                			<td class="seasonhead" style="padding-bottom:0px"><a href="http://www.pet360.com?TREAT20"><img src="elements/ThemeIcon.png" alt="Get Ready For Spring!" border="0" /></a></td>
+              			</tr>
+              			</table>
+              			<table class="seasonright" align="right" style="width:460px; padding:18px 10px">
+              				<tr>
+              					<td valign="top" style="color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: left; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">Get Set for Spring!</td>
+              				</tr>
+              				<tr>
+              					<td valign="top" style="color: #ffffff; font-family: 'Montserrat', sans-serif; text-align: left; font-size:15px; font-weight: normal; margin:0; padding-top:10px;  border: 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum lorem eget ante lobortis, sit amet porta mi rutrum. Curabitur in risus odio. Fusce quis lorem nisl. Aenean vel mollis velit, nec sollicitudin quam.</td>
+              				</tr>
+              			</table>
+              		 </td>
+              		</tr>
+              	</table>
+              	</td>
+              <tr>
+                <td valign="top">
+					<table class="listing odd">
+						<tr>
+							<td>
+								<table class="leftside picture" width="270" align="left">
+									<tr>
+										<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+									</tr>
+								</table>
+								<table class="rightside desc" width="270" align="right" style="padding: 24px 7px 2px 18px;">
+									<tr>
+										<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: left; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Tasty Morsels</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: left; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 20%&#8212;</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: left; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Praise, treat and repeat! Spoil him with delicious, high-quality cat treats he will actually eat.</td>
+									</tr>
+									<tr>
+										<td class="shop" style="padding:15px 110px 15px 0px"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+									</tr>
+								</table>
+                			</td>
+                		</tr>
+                	</table>
+                </td>
+              </tr>
+              <tr>
+              	<td class="divider" colspan="2" style="padding: 5px 0px; border-bottom:1px solid #f15922;" width="150"></td>
+              </tr>
+              <tr>
+                <td valign="top">
+                <table class="listing even">
+                	<tr>
+                		<td>
+                			<table valign="top" class="leftside desc" width="270" align="left" style="padding: 24px 7px 2px 18px;">
+                				<tr>
+                					<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: right; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Sports Gear</td>
+                				</tr>
+                				<tr>
+                					<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: right; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 40%&#8212;</td>
+                				</tr>
+                				<tr>
+                					<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: right; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Show off your team spirit with matching sports jerseys. Always a crowd pleaser</td>
+                				</tr>
+                				<tr>
+                					<td class="shop" style="padding:15px 0px 15px 131px;"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+                				</tr>
+                			</table>
+                			<table valign="top" class="rightside picture" width="270" align="right">
+                				<tr>
+                	 				<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare2.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+                	 			</tr>
+            				</table>
+                		</td>
+                	</tr>
+                </table>
+                
+                <!-- Fixer tables reorient the listing so that the table that needs to go on top in the mobile view is on the 'left' -->
+                
+                <table class="fixer" style="display:none">
+                	<tr>
+                		<td>
+                			<table valign="top" class="leftside picture" width="270" align="left">
+                				<tr>
+                					<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare2.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+                				</tr>
+                			</table>
+                			<table valign="top" class="rightside desc" width="270" align="right" style="padding: 24px 7px 2px 18px;">
+								<tr>
+									<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: right; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Sports Gear</td>
+								</tr>
+								<tr>
+									<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: right; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 40%&#8212;</td>
+								</tr>
+								<tr>
+									<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: right; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Show off your team spirit with matching sports jerseys. Always a crowd pleaser</td>
+								</tr>
+								<tr>
+									<td class="shop" style="padding:15px 0px 15px 131px;"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+								</tr>
+                			</table>
+                		</td>
+                	</tr>
+                </table>
+                </td>
+              </tr>
+              <tr>
+              	<td class="divider" colspan="2" style="padding: 5px 0px; border-bottom:1px solid #f15922;" width="150"></td>
+              </tr>
+              <tr>
+                <td valign="top">
+                	<table class="listing odd">
+						<tr>
+							<td>
+								<table class="leftside picture" width="270" align="left">
+									<tr>
+										<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare3.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+									</tr>
+								</table>
+								<table class="rightside desc" width="270" align="right" style="padding: 24px 7px 2px 18px;">
+									<tr>
+										<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: left; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Grooming</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: left; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 60%&#8212;</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: left; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Keep his skin, coat, teeth and nails healthy and strong. Because he's gorgeous and he knows it.</td>
+									</tr>
+									<tr>
+										<td class="shop" style="padding:15px 110px 15px 0px;"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+                	</table>
+                </td>
+              </tr>
+              <tr>
+              	<td class="divider" colspan="2" style="padding: 5px 0px; border-bottom:1px solid #f15922;" width="150"></td>
+              </tr>
+              <tr>               
+                <td valign="top">
+					<table class="listing even">
+						<tr>
+							<td>
+								<table valign="top" class="leftside desc" width="270" align="left" style="padding: 24px 7px 2px 18px;">
+									<tr>
+										<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: right; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Infinity Scarves</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: right; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 80%&#8212;</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: right; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Who says pups can't be just as chic as their owners? Pair items in his closet with this perfect acessory.</td>
+									</tr>
+									<tr>
+										<td class="shop" style="padding:15px 0px 15px 131px;"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+									</tr>
+								</table>
+								<table valign="top" class="rightside picture" width="270" align="right">
+									<tr>
+										<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare4.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+									</tr>
+								</table>
+                			</td>
+                		</tr>
+                	</table>
+	                <table class="fixer" style="display:none">
+	                	<tr>
+	                		<td>
+                				<table valign="top" class="leftside picture" width="270" align="left">
+                					<tr>
+                						<td><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/ProductSquare4.png" alt="Purina Pro Plan Vet Diet Fortiflora Nutritional supplement" width="300" border="0" /></a></td>
+									</tr>
+								</table>
+                				<table valign="top" class="rightside desc" width="270" align="right" style="padding: 24px 7px 2px 18px;">
+									<tr>
+										<td valign="top" style="color: #22b1cf; font-family: 'Montserrat', sans-serif; text-align: right; font-size:25px; font-weight: normal; margin:0; padding:0;  border: 0;">Infinity Scarves</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: right; font-size:22px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;SAVE up to 80%&#8212;</td>
+									</tr>
+									<tr>
+										<td valign="top" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: right; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Who says pups can't be just as chic as their owners? Pair items in his closet with this perfect acessory.</td>
+									</tr>
+									<tr>
+										<td class="shop" style="padding:15px 0px 15px 110px;"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/Product_Button_Slim.png" alt="Shop Now" /></a></td>
+									</tr>
+                				</table>
+                			</td>
+                		</tr>
+                	</table>    
+                </td>
+              </tr>
+              <tr>
+                	<td class="shopall" colspan="2" style="padding-top:20px" ><a href="http://www.pet360.com/shop/landing/national-nutrition-month?NationalNutritionMonth" target="_blank"><img src="elements/ShopAllBox.jpg" alt="National Nutrition Month" width="600" border="0" /></a></td>
+              </tr>
+              <tr>
+                	<td class="mobileshopall" colspan="2" style="padding-top:20px; display:none;" ><a href="http://www.pet360.com/shop/landing/national-nutrition-month?NationalNutritionMonth" target="_blank"><img src="elements/Mobile_ShopALLbox.jpg" alt="National Nutrition Month" width="600" border="0" /></a></td>
+              </tr>
+              <tr>
+                	<td class="coupon" colspan="2" style="padding-top:20px" ><a href="http://www.pet360.com/shop/landing/national-nutrition-month?NationalNutritionMonth" target="_blank"><img src="elements/Coupon.png" alt="National Nutrition Month" width="600" border="0" /></a></td>
+              </tr>
+              <tr>
+                	<td class="mobilecoupon" colspan="2" style="padding-top:5px; display:none;" ><a href="http://www.pet360.com/shop/landing/national-nutrition-month?NationalNutritionMonth" target="_blank"><img src="elements/MobileCoupon.jpg" alt="National Nutrition Month" width="600" border="0" /></a></td>
+              </tr>
+              <tr>
+              		<td class="divider" colspan="2" style="padding-top:20px; border-bottom:1px solid #f15922;" width="150"></td>
+               </tr>
+               <tr>
+              		<td class="divider" colspan="2" style="padding-top:5px; border-bottom:1px solid #f15922;" width="150"></td>
+               </tr>
+               <tr>
+               		<td valign="top" style="padding-top:10px">
+               			<table class="listing odd">
+							<tr>
+							 <td>
+								<table class="leftside circpic" width="150" align="left">
+									<tr>
+										<td style="padding: 5px 5px 5px 0px"><img src="elements/ProductCircle.png" alt="National Nutrition Month"/></td>
+									</tr>
+								</table>
+								<table class="rightside deal" width="370" align="right">
+									<tr>
+										<td valign="top" style="padding-bottom:10px;"><img src="elements/Deal_header.jpg"  width="360" alt="National Nutrition Month"/></td>
+									</tr>
+									<tr>
+										<td valign="bottom" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: center; font-size:20px; font-weight: normal; margin:0; padding:0;  border: 0;">Weather Jackets</td>
+									</tr>
+									<tr>
+										<td valign="bottom" style="color: #f15922; font-family: 'Montserrat', sans-serif; text-align: center; font-size:32px; font-weight: normal; margin:0; padding:0;  border: 0;">&#8212;Save up to 85%&#8212;</td>
+									</tr>
+									<tr>
+										<td valign="bottom" style="color: #232323; font-family: 'Montserrat', sans-serif; text-align: center; font-size:17px; font-weight: normal; margin:0; padding:0;  border: 0;">Protect your dog from winter weather elements<br>Find jackets for wind, rain, sleet or snow!<br> </td>
+									</tr>
+									<tr>
+										<td valign="bottom"><a href="https://www.pet360.com/sitesearch?w=Fortiflora"><img src="elements/Deal_BottomBar.jpg" alt="National Nutrition Month"/></a></td>
+									</tr>
+								</table>
+								</td>
+							 </tr>
+                		</table>
+                	</td>
+              </tr>
+              <tr>
+              		<td class="divider" colspan="2" style="padding-top:10px; border-bottom:1px solid #f15922;" width="150"></td>
+               </tr>
+              <tr>
+              		<td class="divider" colspan="2" style="padding-top:5px; border-bottom:1px solid #f15922;" width="150"></td>
+               </tr>
+              <tr>
+                	<td class="kittenshop" colspan="2" style="padding-top:20px" ><a href="http://www.pet360.com/shop/landing/national-nutrition-month?NationalNutritionMonth"><img src="elements/Submessage_600x250.jpg" alt="National Nutrition Month" width="600" border="0" /></a></td>
+              </tr>
+              <tr>
+                	<td class="autoship" valign="top" colspan="2" style="padding: 20px 0px"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/autoship1.png" alt="Never run out with Autoship" usemap="#FooterMap" border="0" /></a></td>
+              </tr>
+              <tr>
+                	<td class="mobileautoship" valign="top" colspan="2" style="padding: 20px 0px; display:none"><a href="https://www.pet360.com/sitesearch?w=Fortiflora" target="_blank"><img src="elements/MobileAutoShip.png" alt="Never run out with Autoship"/></a></td>
+              </tr>
+              <tr>
+             		<td>
+             			<table class="footmenu" width="100%" align="center" style="display:none;">
+						<tr>
+						  <td width="100%" colspan="2" align="center" style="padding-left:34px; padding-Bottom:15px;">                     
+							<table width="480px" align="center">
+								<tr>
+									<td class="footshop" style="padding-top:5px"><a href="http://www.pet360.com/shop/dog/food?nav" target="_blank" ><img src="elements/dogfoodbt.png" alt="Dog Food" width="100%"/></a></td>
+								</tr>
+								<tr>
+									<td class="footshop" style="padding-top:5px"><a href="http://www.pet360.com/shop/cat/food?nav" target="_blank" ><img src="elements/catfoodbt.png" alt="Cat Food" width="100%"/></a></td>
+								</tr>
+								<tr>
+									<td class="footshop" style="padding-top:5px"><a href="http://www.pet360.com/shop/pharmacy/veterinary-diets?nav" target="_blank" ><img src="elements/vetdietbt.png" alt="Veterinary Diets" width="100%"/></a></td>
+								</tr>
+								<tr>
+									<td class="footshop" style="padding-top:5px"><a href="http://www.pet360.com/shop/pharmacy?nav" target="_blank" ><img src="elements/pharmacybt.png" alt="Pharmacy" width="100%"/></a></td>
+								</tr>
+							</table>
+						   </td>
+						 </tr>
+                    	</table>
+             		</td>
+             	</tr>
+            </tbody>
+          </table>
+          
+              <!--BEGIN FOOTER-->
+		<table class="container" width="600" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#ffffff">
+				<tr>        
+				<td class="divider" colspan="2" style="border-bottom:1px solid #f15922;" width="150"></td>
+				</tr>
+				<tr>
+					<td>
+						<table class="bottomfoot" valign="top" align="center" width="600px" style="padding-top: 10px;">
+							<tr>
+								<td class="footover">
+									<table class="footcenter" width="200px" align="left" style="padding-left:200px;">
+										<tr>
+											<td style="padding: 0px 2px;"><a href="https://www.facebook.com/Pet360?Social" target="_blank"><img src="elements/facebook.png" alt="facebook"/></a></td>
+											<td style="padding: 0px 2px;"><a href="https://twitter.com/Pet360?Social" target="_blank"><img src="elements/twitter.png" alt="twitter"/></a></td>
+											<td style="padding: 0px 2px;"><a href="http://pinterest.com/Pet360?Social" target="_blank"><img src="elements/pinterest.png" alt="pinterest"/></a></td>
+											<td style="padding: 0px 2px;"><a href="http://instagram.com/pet360?Social" target="_blank"><img src="elements/instagram.png" alt="instagram"/></a></td>
+											<td style="padding: 0px 2px;"><a href="https://www.youtube.com/user/Pet360TV?Social" target="_blank"><img src="elements/youtube.png" alt="youtube"/></a></td>
+										</tr>
+									</table>
+									<table class="footright" align="right" style="right:0px;">
+										<tr>
+											<td><img src="elements/pharmacy.png" alt="Vet-Vipps certified pharmacy" border="0" /></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td valign="top" style="color: #878787; font-family: arial, helvetica, sans-serif; text-align: center; font-size:11px; font-weight: normal; margin:0; padding-bottom:2px;padding-left:5px;padding-top:10px;">To ensure delivery to your inbox, please add <span style="color: #f25822;">Pet360@email.pet360.com</span> to your address book.</td>
+							</tr>
+							<tr>
+								<td valign="top" style="color: #f25822; font-family: arial, helvetica, sans-serif; text-align: center; font-size:11px; font-weight: normal; margin:0; padding-bottom:2px;padding-left:5px;"><a href="http://www.pet360.com/shop/email-preferences?email=%%to_email%%" target="_blank" style="color: #f25822; text-decoration: none">Email Preferences</a> | <a href="http://www.pet360.com/shop/email-preferences?email=%%to_email%%" target="_blank" style="color: #f25822; text-decoration: none">Unsubscribe</a> | <a href="http://www.pet360.com/privacypolicy/" target="_blank" style="color: #f25822; text-decoration: none">Privacy Policy</a></td>
+							</tr>
+							<tr>
+								<td valign="top" style="color: #878787; font-family: arial, helvetica, sans-serif; text-align: center; font-size:11px; font-weight: normal; margin:0; padding-bottom:5px;">&copy;2016 Pet360 LLC All Rights Reserved</td>
+							</tr>   
+					</table>
+				</td>
+			</tr>
+		</table>
+</div>
+
+
+
+<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+</body>
+</html>
